@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+
+*.spec
+kbspec.spec
+credentials.json
+.cache-1173271616
+token.pickle
+# Environments
+.venv
+venv/
+venv.bak/

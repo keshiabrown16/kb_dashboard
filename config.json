@@ -1,0 +1,59 @@
+{
+    "name": "YOUR_DASHBOARD_NAME",
+    "city": "YOUR_CITY",
+    "country_code": "YOUR_COUNTRY_CODE",
+    "weather": {
+        "key": "YOUR_DARKSKY_API_SECRET_KEY",
+        "latitude": "YOUR_LOCATION_LATITUDE",
+        "longitude": "YOUR_LOCATION_LONGITUDE",
+        "units": "si",
+        "exclude": "minutely"
+    },
+    "modules": [
+        {
+            "module": "date_time",
+            "class": "DateTime",
+            "config": {},
+            "active": true
+        },
+        {
+            "module": "current_weather",
+            "config": {
+                "icon": true
+            },
+            "active": true
+        },
+        {
+            "module": "google_calendar",
+            "config": {
+                "item_count": 10
+            },
+            "active": true
+        },
+        {
+            "module": "spotify",
+            "config": {
+                "client_id": "YOUR_SPOTIFY_CLIENT_ID",
+                "client_secret": "YOUR_SPOTIFY_CLIENT_SECRET",
+                "username": "YOUR_SPOTIFY_USERNAME"
+            },
+            "active": true
+        },
+        {
+            "module": "weather_forecast",
+            "config": {
+                "days": 7
+            },
+            "active": true
+        },
+        {
+            "module": "news",
+            "config": {
+                "key": "YOUR_NEWS_API_KEY",
+                "sources": "YOUR_NEWS_SOURCES"
+            },
+            "active": true
+        }
+    ]
+}
+
